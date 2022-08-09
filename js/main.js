@@ -109,12 +109,14 @@
         mm = parseInt(mm) + 1;
         mm = String(mm).padStart(2, '0');
     }
-    var timerdate = mm + '/' + dd + '/' + yyyy;
+    var timerdate = "2022/07/10";
     // For demo preview end
     
 
     // Use this for real timer date
-    /* var timerdate = "2020/01/01"; */
+    /* var timerdate = "2020/01/01"; 
+    año / Mes / Dia
+    */
 
 	$("#countdown-time").countdown(timerdate, function(event) {
         $(this).html(event.strftime("<div class='countdown__item'><span>%D</span> <p>Days</p> </div>" + "<div class='countdown__item'><span>%H</span> <p>Hours</p> </div>" + "<div class='countdown__item'><span>%M</span> <p>Minutes</p> </div>" + "<div class='countdown__item'><span>%S</span> <p>Seconds</p> </div>"));
