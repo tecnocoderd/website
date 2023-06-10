@@ -255,6 +255,11 @@ ol {
 .header__logo a {
 	display: inline-block;
 }
+@media only screen and (max-width: 600px) {
+	#logoPrincipal {
+		width: 150px !important;
+	}
+}
 
 .header__nav {
 	text-align: right;
