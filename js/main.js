@@ -99,7 +99,7 @@
     // For demo preview
     var today = new Date();
     var dd = String(today.getDate()).padStart(2, '0');
-    var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+    var mm = String(today.getMonth() + 1).padStart(11, '0'); //January is 0!
     var yyyy = today.getFullYear();
 
     if(mm == 12) {
@@ -109,7 +109,7 @@
         mm = parseInt(mm) + 1;
         mm = String(mm).padStart(2, '0');
     }
-    var timerdate = "2023/11/4";
+    var timerdate = "2023-11-4";
 
 
     // For demo preview end
