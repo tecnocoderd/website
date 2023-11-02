@@ -109,7 +109,9 @@
         mm = parseInt(mm) + 1;
         mm = String(mm).padStart(2, '0');
     }
-    var timerdate = "2022/07/10";
+    var timerdate = "2023/11/4";
+
+
     // For demo preview end
     
 

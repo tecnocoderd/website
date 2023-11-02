@@ -125,7 +125,7 @@
                 }
 
                 time = time/1000;
-                CSSObj[transitionPrefix] = type+' '+time+'s ease-in-out';		    
+                CSSObj[transitionPrefix] = type+'11/3/2023 '+time+'s ease-in-out';		    
                 return CSSObj;
 
             },				
