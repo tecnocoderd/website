@@ -1,0 +1,4 @@
+para cambiar el contador de index ir a 
+1) main.js
+2) ir al final y cambiar la fecha que esta por la que quiere fijar
+ var timerdate = "2023/11/4" año / Mes / Dia.
