@@ -109,11 +109,12 @@
         mm = parseInt(mm) + 1;
         mm = String(mm).padStart(2, '0');
     }
-    var timerdate = "2023-11-4";
+    var timerdate = "2023/11/4";
 
 
     // For demo preview end
     
+    //este es para agregar el contador de Index.
 
     // Use this for real timer date
     /* var timerdate = "2020/01/01"; 
